@@ -3,12 +3,12 @@
 This project applies machine learning to predict hospital readmission using the UC Irvine Diabetes dataset. The dataset, collected from 130 U.S. hospitals between 1999 and 2008, consists of 101,766 patient encounters with 50 features (11 numeric and 39 categorical). The project involves detailed dataset exploration, custom data transformations, nested cross-validation, and model interpretation. Three models are compared—SVC, Logistic Regression with L1 (Lasso), and Random Forest—with an alternative pipeline featuring SelectKBest for feature selection.
 
 # Repository Structure
-
+```
 root/
 ├── README.md         # This file
 ├── predicting_diabetic_readmission.ipynb    # Jupyter Notebook containing all code for data processing, modeling, evaluation, and visualization.
 ├── requirements.txt    # Python package dependencies.
-
+```
 # Getting Started
 
 The requirements.txt file needs to be installed to run the notebook: 
